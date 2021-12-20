@@ -1,0 +1,8 @@
+Run:
+
+conda env create -f environment.yml
+conda activate xview3
+pip install ipykernel
+python -m ipykernel install --user --name xview3
+
+

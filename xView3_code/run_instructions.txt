@@ -1,0 +1,7 @@
+Each model that needs to be trained has its own jupyter notebook ipython file. To train the models follow the folloing steps:
+
+1) Go to the Xview3 challeng website https://iuu.xview.us/ make an account and download the train and validation data for the scenes. Also download the .txt files wiht the labels
+2) Unzip the files
+3) Run the Data processing notebook to chip all of the images.
+4) Run tghe xgboost model and then the Task_2 model notebooks to get weights for every model in the inference pipeline.
+5) You now have weights to load in Inference pulic leaderboard notebook and generate predicitons.
